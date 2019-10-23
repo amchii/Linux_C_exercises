@@ -42,7 +42,7 @@ int get_sec_min(void)
 
     while (j < N)
     {
-        if (j == flag)
+        if (j == flag) // 越过第一小
         {
             j++;
             continue;
